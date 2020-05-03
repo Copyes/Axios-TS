@@ -1,0 +1,28 @@
+{
+  "name": "axios-ts",
+  "version": "1.0.0",
+  "description": "Reconstruct the axios using ts.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.ts",
+    "lint": "tslint --format stylish --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Copyes/Axios-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Copyes/Axios-TS/issues"
+  },
+  "homepage": "https://github.com/Copyes/Axios-TS#readme",
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "tslint-config-standard-plus": "^2.3.0",
+    "typescript": "^3.8.3"
+  }
+}
